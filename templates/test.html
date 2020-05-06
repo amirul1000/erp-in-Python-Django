@@ -1,0 +1,30 @@
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" ng-show="title">
+                <button type="button" class="close" ng-click="$hide()">&times;</button>
+                <h4 class="modal-title" ng-bind-html="title"></h4>
+            </div>
+            <div class="modal-body" ng-show="content">
+
+                <div class="form-group">
+                    <label for="sendTo">sendTo</label>
+                    <button type="button" class="btn btn-default" ng-model="selectedIcons" data-html="1" data-multiple="1" data-animation="am-flip-x" ng-options="icon.value as icon.label for icon in icons" bs-select>
+                        Action <span class="caret"></span>
+                    </button>
+                </div>
+
+                <div class="form-group">
+                    <label for="messageText">text</label>
+                    <textarea class="form-control" name="" id="messageText" cols="50" rows="10"></textarea>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" ng-click="$hide()">Close</button>
+                <button type="button" class="btn btn-primary" ng-click="sendMessage(issue.id)">Send</button>
+            </div>
+        </div>
+    </div>
+</div>

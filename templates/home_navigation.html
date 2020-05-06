@@ -1,0 +1,15 @@
+{% load static %}
+<div class="light-blue lighten-1">
+    <div class="container">
+    <a id="logo-container" href="#" class="brand-logo">
+         <img class="activator" src="{% static '/images/logo.png' %}" style="width:150px;">
+    </a>
+    <ul class="right hide-on-med-and-down">
+      {% if user.is_authenticated %}
+         <li><a href="{% url 'account_logout' %}" class="btn waves-effect waves-light orange">Logout</a></li>
+       {% else %}
+        <li><a href="{% url 'account_login' %}"  class="btn waves-effect waves-light orange">Login</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</div>

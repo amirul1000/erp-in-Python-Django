@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if latest_movie_list %}
+    <ul>
+    {% for movie in latest_movie_list %}
+        <li>
+        <a href="/movies/{{ movie.id }}/">{{ movie.movie_name }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
+{% endblock %}

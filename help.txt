@@ -1,0 +1,110 @@
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+https://docs.djangoproject.com/en/1.10/
+
+C:\Users\USER\AppData\Local\Programs\Python\Python36-32\
+C:\Python27
+
+ pip install virtualenv
+ cd my_project_folder
+ virtualenv my_project
+virtualenv -p C:\Users\USER\AppData\Local\Programs\Python\Python36-32\python.exe my_project
+
+virtualenv -p C:\Python27\python.exe my_project
+
+\my_project\Scripts\activate.bat
+\my_project\Scripts\deactivate.bat
+
+rm -rf my_project
+
+
+python --version
+pip install virtualenvwrapper-win
+mkvirtualenv myproje
+workon myproject
+pip install django
+
+mkvirtualenv venv
+
+
+virtualenv -p C:\Users\USER\AppData\Local\Programs\Python\Python36-32\python.exe my_project
+workon my_project
+pip install Django
+django-admin startproject mysite
+cd myside
+python manage.py runserver
+
+
+python -m django --version
+django-admin startproject mysite
+python manage.py startapp polls
+python manage.py runserver
+
+python manage.py createsuperuser --username=admin --email=admin@admin.com
+
+
+python manage.py migrate
+python manage.py makemigrations
+python manage.py makemigrations your_app_label1 your_app_label2 
+
+pip install django-allauth
+
+
+https://scotch.io/tutorials/working-with-django-templates-static-files
+
+
+
+
+https://tutorial.djangogirls.org/en/deploy/index.html
+
+
+
+//////////////////////////////Accounting////////////////
+
+http://www.leoisaac.com/fin/fin012.htm
+http://www.accountingtools.com/questions-and-answers/what-is-a-single-entry-system.html
+https://www.youtube.com/watch?v=Mx3RUc9YspU
+https://www.youtube.com/watch?v=CAVaV-96eBk
+
+
+Types of Accounts
+    Balance Sheet Accounts
+         Assets
+                Cash            
+                Account Receiveable
+                Equipment
+                Inventory
+                Prepaid Expenses
+         Liablities
+                Accounts Payable
+                Accured Expenses
+                Notes Payable  
+                Unearned Revenue
+                Deferred Taxes
+         Owners Equity   
+               Capital
+               Retained Earnings  
+    Income Statements Accounts 
+          Revenue 
+               Income                 
+          Expense
+               Salaries
+               Selling Expenses
+               Depreciation
+               Rent
+               Interest Expense
+
+http://www.django-rest-framework.org/tutorial/quickstart/               
+
+         
+http://www.django-rest-framework.org/tutorial/1-serialization/
+
+
+https://thinkster.io/django-angularjs-tutorial
+http://blog.kevinastone.com/getting-started-with-django-rest-framework-and-angularjs.html
+
+
+
+
+
+
+

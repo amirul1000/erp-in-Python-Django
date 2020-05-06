@@ -1,0 +1,38 @@
+{% load static %}
+
+ {% block title %}
+ {% endblock title %}
+
+{% block header %}
+    {% include "header.html" %}
+{% endblock %}
+
+
+
+<body>
+  {% block navigation %}
+    {% include "home_navigation.html" %}
+  {% endblock %}
+
+ {% block mega_menu %}
+
+ {% endblock %}
+
+<div class="container">
+ {% block content %}
+
+ {% endblock %}
+</div>
+
+</body>
+
+{% block footer %}
+    {% include "footer.html" %}
+{% endblock %}
+
+
+
+  
+
+
+
