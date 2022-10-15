@@ -9,6 +9,7 @@ Youtube Tutorial : https://youtu.be/4tOFOtvlGrA
 Youtube Channel : https://www.youtube.com/channel/UC2Q4oWfoMQzi6AES8Vb2vQw?view_as=subscriber
 
 Donate to Paypal : https://www.paypal.com/paypalme/patacorporation
+Bitcoin - 1G46zLUJHvXdM2aTsVshX66GU33Gj2bgsn
 
 More Tutorials
 ===================
