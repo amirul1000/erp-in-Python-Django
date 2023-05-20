@@ -4,7 +4,7 @@ ERP-Enterprise Resource Planning in Python Django|ERP Projects|ERP Solution|ERP 
 ================================================================================================
 
 
-Youtube Tutorial : https://youtu.be/0M2Ms-r175Y
+Youtube Tutorial : https://www.youtube.com/watch?v=4tOFOtvlGrA
 
 
 Donate to Paypal : https://www.paypal.com/paypalme/patacorporation
