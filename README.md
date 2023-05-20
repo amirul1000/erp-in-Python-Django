@@ -17,4 +17,3 @@ https://www.binance.com/en/activity/referral-entry/CPA?fromActivityPage=true&ref
 
 
 
-https://way2k.com/?ref=amirrucst
